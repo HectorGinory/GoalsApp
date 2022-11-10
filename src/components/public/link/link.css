@@ -1,0 +1,27 @@
+
+.list {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 0px 0px 20px;
+    align-items: center;
+    color: #008f8f;
+    background: linear-gradient(to bottom, #f5ffff, #e4fdff);
+    box-shadow: 0px 0px 5px 0px #a7cddf inset ;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 900;
+    transition: .3s;
+    gap: 10px;
+}
+
+.list:hover {
+    background: linear-gradient(to bottom, #63e6e6, #28becc);
+    box-shadow: 0px 0px 7px  #34ffff inset ;
+    color: #fffffa;
+}
+
+.icon {
+    width: 20px;
+}

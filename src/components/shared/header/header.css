@@ -1,0 +1,61 @@
+.header {
+    background: linear-gradient(to top, #247B7B, #0D5C63);
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFA;
+    z-index: 10;
+    position: relative;
+    box-shadow: 0px 0px 10px 0px #78CDD7;
+}
+
+.container {
+    display: flex;
+    padding-left: 1rem;
+    align-items: center;
+}
+
+.logo-svg {
+    margin-right: 0.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    color:#FFFFFA;
+}
+
+.title {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    color: #FFFFFA;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.title:hover  {
+    color: #78CDD7;
+    letter-spacing: 2px;
+}
+
+
+.profile-link {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    height: 48px;
+    transition: .3s;
+}
+
+.profile-link:hover {
+    background: #78CDD7;
+}
+.user-svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    color: white;
+    transition: 1s;
+}
+
+.profile-link:hover .user-svg {
+    color: #FFFFFA;
+}
+
